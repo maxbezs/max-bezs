@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
+import { Route, Routes } from "react-router-dom"
+import Home from "./pages/Home";
+import Blogs from "./pages/Blogs";
+import Blog from "./pages/Blog";
+import Work from "./pages/Work";
+import Community from "./pages/Community";
+import CommunityPatreon from "./pages/CommunityPatreon";
+import CommunityNFT from "./pages/CommunityNFT";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/blog" element={<Blogs />} />
+      <Route path="/blog/:blogid" element={<Blog />} />
+      <Route path="/work" element={<Work />} />
+      <Route path="/community" element={<Community />} />
+      <Route path="/community/patreon" element={<CommunityPatreon />} />
+      <Route path="/community/nft" element={<CommunityNFT />} />
+    </Routes>
   );
 }
 
