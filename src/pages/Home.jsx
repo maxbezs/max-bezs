@@ -1,5 +1,5 @@
 import Knowledge from "../components/Knowledge";
-import './style/Home.css';
+import '../style/Home.css';
 import '../style/App.css';
 
 const Home = () => {

@@ -7,6 +7,7 @@ import Work from "./pages/Work";
 import Community from "./pages/Community";
 import CommunityPatreon from "./pages/CommunityPatreon";
 import CommunityNFT from "./pages/CommunityNFT";
+import Design from "./pages/Design";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/community" element={<Community />} />
       <Route path="/community/patreon" element={<CommunityPatreon />} />
       <Route path="/community/nft" element={<CommunityNFT />} />
+      <Route path="/design" element={<Design />} />
     </Routes>
   );
 }
