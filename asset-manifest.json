@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/max-bezs/static/css/main.3039586e.css",
-    "main.js": "/max-bezs/static/js/main.82605bd4.js",
+    "main.js": "/max-bezs/static/js/main.ea057835.js",
     "static/js/787.28cb0dcd.chunk.js": "/max-bezs/static/js/787.28cb0dcd.chunk.js",
     "static/media/e-Ukraine-Regular.otf": "/max-bezs/static/media/e-Ukraine-Regular.38805a5a6a103eb1aa7d.otf",
     "index.html": "/max-bezs/index.html",
     "main.3039586e.css.map": "/max-bezs/static/css/main.3039586e.css.map",
-    "main.82605bd4.js.map": "/max-bezs/static/js/main.82605bd4.js.map",
+    "main.ea057835.js.map": "/max-bezs/static/js/main.ea057835.js.map",
     "787.28cb0dcd.chunk.js.map": "/max-bezs/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3039586e.css",
-    "static/js/main.82605bd4.js"
+    "static/js/main.ea057835.js"
   ]
 }
