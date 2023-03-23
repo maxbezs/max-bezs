@@ -13,14 +13,14 @@ import Design from "./pages/Design";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/blog" element={<Blogs />} />
-      <Route path="/blog/:blogid" element={<Blog />} />
-      <Route path="/work" element={<Work />} />
-      <Route path="/community" element={<Community />} />
-      <Route path="/community/patreon" element={<CommunityPatreon />} />
-      <Route path="/community/nft" element={<CommunityNFT />} />
-      <Route path="/design" element={<Design />} />
+      <Route path="/max-bezs/" element={<Home />} />
+      <Route path="/max-bezs/blog" element={<Blogs />} />
+      <Route path="/max-bezs/blog/:blogid" element={<Blog />} />
+      <Route path="/max-bezs/work" element={<Work />} />
+      <Route path="/max-bezs/community" element={<Community />} />
+      <Route path="/max-bezs/community/patreon" element={<CommunityPatreon />} />
+      <Route path="/max-bezs/community/nft" element={<CommunityNFT />} />
+      <Route path="/max-bezs/design" element={<Design />} />
     </Routes>
   );
 }
