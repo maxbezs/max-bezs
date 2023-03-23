@@ -1,4 +1,5 @@
-import './style/App.css';
+import './style/App.scss';
+import './style/Elements.scss';
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";

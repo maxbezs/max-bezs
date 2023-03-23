@@ -9,10 +9,10 @@ const Typography = () => {
               <h1> Heading One</h1>
             </div>
             <div className="typography-heading-size">
-              <p> 4.4rem </p>
+              <p> clamp(28px,3.87vw,56px)</p>
             </div>
             <div className="typography-heading-size">
-              <p> Poppins Regular </p>
+              <p> e-Ukraine Regular </p>
             </div>
           </div>
           <hr/>
@@ -21,10 +21,10 @@ const Typography = () => {
               <h2> Heading Two</h2>
             </div>
             <div className="typography-heading-size">
-              <p> 3.6rem </p>
+              <p> clamp(24px,2.62vw,38px) </p>
             </div>
             <div className="typography-heading-size">
-              <p> Poppins Regular </p>
+              <p> e-Ukraine Regular </p>
             </div>
           </div>
           <hr/>
@@ -33,10 +33,10 @@ const Typography = () => {
               <h3> Heading Tree</h3>
             </div>
             <div className="typography-heading-size">
-              <p> 2.8rem </p>
+              <p> clamp(20px,1.95vw,28px) </p>
             </div>
             <div className="typography-heading-size">
-              <p> Poppins Regular </p>
+              <p> e-Ukraine Regular </p>
             </div>
           </div>
           <hr/>
@@ -45,10 +45,10 @@ const Typography = () => {
               <h4> Heading Four</h4>
             </div>
             <div className="typography-heading-size">
-              <p> 2rem </p>
+              <p> clamp(18px,1.68vw,24px) </p>
             </div>
             <div className="typography-heading-size">
-              <p> Poppins Regular </p>
+              <p> e-Ukraine Regular </p>
             </div>
           </div>
           <hr/>
@@ -57,10 +57,10 @@ const Typography = () => {
               <h5> Heading Five</h5>
             </div>
             <div className="typography-heading-size">
-              <p> 1.6rem </p>
+              <p> clamp(16px,1.37vw,20px) </p>
             </div>
             <div className="typography-heading-size">
-              <p> Poppins Regular </p>
+              <p> e-Ukraine Regular </p>
             </div>
           </div>
           <hr/>
@@ -69,10 +69,10 @@ const Typography = () => {
               <p> Paragraph</p>
             </div>
             <div className="typography-heading-size">
-              <p> 1.6rem </p>
+              <p> clamp(13px,1.12vw,16px) </p>
             </div>
             <div className="typography-heading-size">
-              <p> Poppins Regular </p>
+              <p> e-Ukraine Regular </p>
             </div>
           </div>
           <hr/>

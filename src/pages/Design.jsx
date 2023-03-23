@@ -1,4 +1,3 @@
-import '../style/Design.css';
 import { sidebarDesignSystemData } from '../sidebarDesignSystemData';
 import { useState } from 'react';
 import Color from "../components/Color";
@@ -10,7 +9,7 @@ const Blog = () => {
     const [active, setActive] =useState("Color")
     return (
         <div>
-            <div className="header">
+            <div className="design-header">
                 <h1> Design System </h1>
             </div>
             <div className="line">

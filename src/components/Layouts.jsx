@@ -1,5 +1,3 @@
-import '../style/Design.css';
-
 const Layouts = () => {
     return (
       <div>

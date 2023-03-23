@@ -1,6 +1,6 @@
 import Knowledge from "../components/Knowledge";
-import '../style/Home.css';
-import '../style/App.css';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const listKnowledge = [
@@ -13,6 +13,7 @@ const Home = () => {
   ];
   return (
       <div>
+        <Header/>
         <div id="videowrapper">
           <div id="fullScreenDiv">
               <div id="videoMessage" className="styling"> 
@@ -20,15 +21,15 @@ const Home = () => {
                       <h1>I'M MAX BEZS.</h1>
                   </div>
               </div>
-              <video id="video" role="presentation" preload="auto" playsinline=""
-              crossorigin="anonymous" loop="" muted="" autoplay="" className="blur">
+              <video id="video" role="presentation" preload="auto" playsInline=""
+              crossOrigin="anonymous" loop="" muted="" autoPlay="" className="blur">
                   <source src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/video.mp4" type="video/mp4"/>
               </video> 
           </div>
-          <div className="visualpart" style="bottom: 17%">
+          <div className="visualpart">
               <p>DESIGNER | DEVELOPER</p>
           </div>
-          <div className="visualpart" style="background-color: rgba(0, 0, 0);">
+          <div className="visualpart">
               <h2>DESIGN</h2>
               <p>
                   I'M USING PHOTOSHOP, ILLUSTRATOR, AFTER EFFECTS, FIGMA TO CREATE
@@ -58,8 +59,8 @@ const Home = () => {
                   TO CREATE WEB AND ANDROID APPLICATIONS
               </p>
           </div>
-          <div style="height: 100%; width: 100%; display: flex; flex-direction: column;">
-              <div style="height: 20%; width: 100%; display: flex;flex-direction: column; align-items: center;">
+          <div className="professional">
+              <div className="professional-text" >
                   <h2>PROFESSIONAL</h2>
                   <p>MY KNOWLEDGE LEVEL IN SOFTWARE</p>
               </div>
@@ -75,7 +76,7 @@ const Home = () => {
           <p>MY LATEST WORK </p>
           <div className="carousel"></div>
       </div>
-      <div style="height: auto; width: 100%; display: flex; flex-direction: column; gap: 100px; padding-top: 50px; padding-bottom: 50px;">
+      <div className="programs" >
           <div className="imgmmm">
               <div className="image">
                   <img alt="max_bezs 3dsMax logo" src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/img1.webp" className="imagem"/>
@@ -169,6 +170,7 @@ const Home = () => {
               </div>
           </div>
         </div>
+        <Footer/>
       </div>
     );
 };
