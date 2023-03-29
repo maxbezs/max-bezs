@@ -3,7 +3,7 @@
     src: url(../fonts/e-Ukraine-Regular.otf) format('otf');
 }
 
-html, body, h1, h2, h3, h4, h5, p, a{
+html, body, h1, h2, h3, h4, h5, p, a, button{
     font-family: 'e-Ukraine';
     font-weight: 100;
     letter-spacing: -.02rem;
@@ -12,6 +12,7 @@ html, body, h1, h2, h3, h4, h5, p, a{
     padding:0;
     border:0;
     color:#fff;
+    text-decoration: none;
 }
 
 body{
@@ -26,6 +27,8 @@ body{
 header{
     position: fixed;
     background-color: #000;
+    display: flex;
+    justify-content: center;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -34,41 +37,80 @@ header{
 	transition: all 300ms ease-in-out;
 }
 
+nav{
+    display: flex;
+}
+
 h1{
     font-size: clamp(28px,3.87vw,56px);
     font-weight: 900;
-    line-height: 107%;
+    line-height: 120%;
+    margin-block: calc(clamp(28px,3.87vw,56px)/2);
 }
 
 h2{
     font-size: clamp(24px,2.62vw,38px);
     font-weight: 500;
     line-height: 105%;
+    margin-block: calc(clamp(24px,2.62vw,38px)/5);
 }
 
 h3{
     font-size: clamp(20px,1.95vw,28px);
     font-weight: 400;
     line-height: 114%;
+    margin-block: calc(clamp(20px,1.95vw,28px)/4);
 }
 
 h4{
     font-size: clamp(18px,1.68vw,24px);
     font-weight: 300;
-    line-height: 117%;    
+    line-height: 117%;
+    margin-block: calc(clamp(18px,1.68vw,24px)/5);    
 }
 
 h5{
     font-size: clamp(16px,1.37vw,20px);
     line-height: 120%;
+    margin-block: clamp(16px,1.37vw,20px);
 }
 
 p{
-    font-size: clamp(13px,1.12vw,16px);
+    font-size: clamp(14px,1.2vw,16px);
     max-inline-size: 66ch;
-    font-weight: 100;
-    line-height: 150%;
-    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    letter-spacing: 0.08rem;
+    margin-block: calc(clamp(14px,1.2vw,16px));
+}
+
+img{
+    box-sizing: border-box;
+    width: auto;
+    height: 100%;
+}
+
+input[type=button], button {
+    background: #343434;
+    outline:0;
+    color:#fff;
+    cursor:pointer;
+    text-decoration:none;
+    border-radius:8px;
+    padding-inline: 16px;
+    padding-block: 12px;
+}
+
+hr{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #191919;
+    
 }
 
 ::-webkit-scrollbar{

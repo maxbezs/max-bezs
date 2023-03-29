@@ -51,7 +51,7 @@ const Header = () => {
         <div className="navbar-nav">
             <div className="container-nav">
                 <div className="logo-nav">
-                    <img alt="max_bezs logo" src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/icon192transparent.png" className="header-logo-img"/>
+                    <img alt="max_bezs logo" src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/icon192transparent.png"/>
                 </div>
                 <div className="menu-icon-nav" onClick={handleShowNavbar}>
                     <img alt="menu icon" src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/icons/menu.svg" className="header-menu-icon"/>
@@ -65,13 +65,15 @@ const Header = () => {
                             <a id="/blog" className={activePath === '/blog' ? 'active' : ''} aria-label='blog page' href="/blog">BLOG</a>
                         </li>
                         <li>
-                            <a id="/work" className={activePath === '/work' ? 'active' : ''} aria-label='work page' href="/work">WORK</a>
+                            <a id="/services" className={activePath === '/service' ? 'active' : ''} aria-label='service page' href="/services">SERVICES</a>
                         </li>
                         <li>
                             <a id="/community" className={activePath === '/community' ? 'active' : ''} aria-label='community page' href="/community">COMMUNITY</a>
                         </li>
                     </ul>
                 </nav>
+                <button>Contact Us</button>
+
             </div>
         </div>
     </header>

@@ -18,7 +18,13 @@ const Home = () => {
           <div id="fullScreenDiv">
               <div id="videoMessage" className="styling"> 
                   <div className="name">
-                      <h1>I'M MAX BEZS.</h1>
+                      <h1>We create, build, lunch digital tools</h1>
+                      <p>Optimize your product development lifecycle with 
+                        our expert team. From idea generation to market 
+                        domination, we provide comprehensive support to help
+                         you conquer your target market.</p>
+                         <button>Contact Us</button>
+
                   </div>
               </div>
               <video id="video" role="presentation" preload="auto" playsInline=""

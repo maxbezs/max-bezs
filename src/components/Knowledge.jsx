@@ -9,9 +9,7 @@ const Knowledge = (props) => {
         <div className = "rowwe">
             <hr className="design-hr" style={{width: props.size}}/>
             <div style={{width: "18%"}}>
-                <p>
                     {props.size}
-                </p>
             </div>
         </div>            
       </div>
