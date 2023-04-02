@@ -65,11 +65,11 @@ const Header = () => {
                             <a id="/blog" className={activePath === '/blog' ? 'active' : ''} aria-label='blog page' href="/blog">BLOG</a>
                         </li>
                         <li>
-                            <a id="/services" className={activePath === '/service' ? 'active' : ''} aria-label='service page' href="/services">SERVICES</a>
+                            <a id="/services" className={activePath === '/services' ? 'active' : ''} aria-label='service page' href="/services">SERVICES</a>
                         </li>
-                        <li>
+                        {/**<li>
                             <a id="/community" className={activePath === '/community' ? 'active' : ''} aria-label='community page' href="/community">COMMUNITY</a>
-                        </li>
+                        </li>**/}
                     </ul>
                 </nav>
                 <button>Contact Us</button>

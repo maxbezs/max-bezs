@@ -108,6 +108,7 @@ export const serviceList=[
             "HTML, CSS, JS",
             "Frontend only"
         ],
+        href: "webpage",
     },
     {
         title: "Web-app",
@@ -115,8 +116,8 @@ export const serviceList=[
             "React.js web app",
             "1 web page",
             "Frontend only",
-            "FREELANCE PRICE FOR THESE SERVICES"
         ],
+        href: "web-app",
     },
     {
         title: "Mobile App",
@@ -125,29 +126,33 @@ export const serviceList=[
             "up to 3 pages",
             "Only offline functions",
         ],
+        href: "mobile-app",
     },
     {
-        title: "Webpage Builder",
+        title: "No-code",
         options: [
             "1 web page",
-            "non-coding constructors",
-            "Bubble, Webflow, Wix, WordPress"
+            "non-coding ",
+            "Bubble, Wix, WordPress"
         ],
+        href: "webpage-builder",
     },
     {
         title: "API",
         options: [
             "GraphQl, Flask",
-            "API or backend for website",
-            "Bubble, Webflow, Wix, WordPress"
+            "Backend for website",
         ],
+        href: "api",
     },
     {
         title: "E-commerce",
         options: [
             "Shop",
-            "Mangment and analitics system"
+            "Managment system",
+            "Analitics system"
         ],
+        href: "e-commerce",
     },
     {
         title: "Other",
@@ -155,5 +160,114 @@ export const serviceList=[
             "Custom product",
             "Specific features"
         ],
+        href: "other",
     },
+]
+
+export const serviceListWebpage=[
+    {
+        title:"SEO",
+        description:`Our SEO tools optimize titles, descriptions,
+         keywords, and meta tags, analyze traffic and performance,
+          create sitemaps, and improve speed and user experience.
+           Reach a wider audience and increase online presence 
+           with our service`
+    },
+    {
+        title:"Responsive design",
+        description:`A responsive design feature is essential
+         for any webpage, improving user experience, accessibility,
+          and search engine ranking. With seamless functionality 
+          on any device, more visitors can be attracted and retained,
+           leading to increased conversions and business success.`
+    },
+    {
+        title:"HTML, CSS, JS",
+        description:`Using pure HTML, CSS, and JS for creating a website
+         provides greater flexibility and control over the design and 
+         functionality of the website. Nevertheless, if you're looking
+          for complete control over your website, building a website 
+          using pure HTML, CSS, and JS can be a great option.`
+    }
+]
+
+export const serviceListWebapp=[
+    {
+        title:"Reactive & interactivity",
+        description:`Highly responsive and engaging web application
+         experience with reactive and interactivity features. 
+         The reactive feature provides instant response to user actions
+        and data changes, while the interactivity feature creates an
+        immersive experience with responsive functionality and animations.`
+    },
+    {
+        title:"Responsive design",
+        description:`A responsive design feature is essential
+         for any webpage, improving user experience, accessibility,
+          and search engine ranking. With seamless functionality 
+          on any device, more visitors can be attracted and retained,
+           leading to increased conversions and business success.`
+    },
+    {
+        title:"SEO",
+        description:`Our SEO tools optimize titles, descriptions,
+         keywords, and meta tags, analyze traffic and performance,
+          create sitemaps, and improve speed and user experience.
+           Reach a wider audience and increase online presence 
+           with our service`
+    },    
+]
+
+export const serviceListWebpageNeed=[
+    {
+        title:"Design of page",
+        description:`Web design for your page 
+        that includes both mobile and desktop views is required We kindly ask 
+        that you provide the design in Figma or Illustrator format.`
+    },
+    {
+        title:"3 meetings",
+        description:`Three meetings with you, each lasting up to 10 minutes, to ensure the best possible service.`
+    },
+]
+
+export const serviceListApp=[
+    {
+        title:"Prototype",
+        description:`We offer a prototype service as part of our 
+        mobile app creation services for small businesses. Our 
+        service allows clients to test their app concept before 
+        committing to full development, saving time and money. We 
+        work closely with clients to create functional and visually
+         appealing prototypes using the latest tools and technologies.`
+    },
+    {
+        title:"Fast and light app",
+        description:`Whether you need a basic app or a more complex
+         one, we have the expertise and tools to deliver a solution
+          that meets your needs. With our fast and lightweight app 
+          service, you can get your app up and running in no time.`
+    },
+    {
+        title:"Testing",
+        description:`Our app testing service is designed to help 
+        small business clients like you identify and fix any 
+        potential issues with your app before it goes live. Our 
+        experienced team of testers will put your app through its
+         paces, checking for any bugs, glitches, or other issues 
+         that could impact its performance or user experience`
+    }, 
+]
+
+export const serviceListAppNeed=[
+    {
+        title:"Design of app",
+        description:`Design for your page 
+        that includes every page views is required We kindly ask 
+        that you provide the design in Figma or Illustrator format.`
+    },
+    {
+        title:"3 meetings",
+        description:`Three meetings with you, each lasting up to 10 minutes, to ensure the best possible service.`
+    }
 ]

@@ -18,13 +18,13 @@ const Home = () => {
           <div id="fullScreenDiv">
               <div id="videoMessage" className="styling"> 
                   <div className="name">
-                      <h1>We create, build, lunch digital tools</h1>
-                      <p>Optimize your product development lifecycle with 
-                        our expert team. From idea generation to market 
+                      <h1>We create, build, lunch Custom Digital Products</h1>
+                      <p>Our expert team create Custom Digital Products for your business. 
+                        From idea generation to market 
                         domination, we provide comprehensive support to help
-                         you conquer your target market.</p>
+                         you unlock your business's potential.</p>
                          <button>Contact Us</button>
-
+                         <a href="/services">Our Services</a>
                   </div>
               </div>
               <video id="video" role="presentation" preload="auto" playsInline=""

@@ -17,7 +17,7 @@ const Service = () => {
           <p>Choose the features and services that best fit your budget and requirements, and let us help you unlock your business's potential</p>
           <div className="pricing-options">
             {serviceList.map(list => (
-              <Option key={list.options} title = {list.title} options = {list.options}/>
+              <Option key={list.options} title = {list.title} options = {list.options} href = {list.href}/>
             ))}
           </div>
         </div>
