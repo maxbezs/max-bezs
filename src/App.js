@@ -38,7 +38,7 @@ function App() {
       <Route path="/community/nft" element={<CommunityNFT />} />
       <Route path="/design" element={<Design />} />
       <Route path="/contact-us" element={<Contactus />} />
-      <Route path="/bok" element={<Book />} />
+      <Route path="/book" element={<Book />} />
     </Routes>
   );
 }
