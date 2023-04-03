@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/max-bezs/static/css/main.f54da417.css",
-    "main.js": "/max-bezs/static/js/main.47928978.js",
-    "static/js/787.28cb0dcd.chunk.js": "/max-bezs/static/js/787.28cb0dcd.chunk.js",
-    "static/media/e-Ukraine-Regular.otf": "/max-bezs/static/media/e-Ukraine-Regular.38805a5a6a103eb1aa7d.otf",
-    "index.html": "/max-bezs/index.html",
-    "main.f54da417.css.map": "/max-bezs/static/css/main.f54da417.css.map",
-    "main.47928978.js.map": "/max-bezs/static/js/main.47928978.js.map",
-    "787.28cb0dcd.chunk.js.map": "/max-bezs/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.4810f444.css",
+    "main.js": "/static/js/main.aa41fe28.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/e-Ukraine-Regular.otf": "/static/media/e-Ukraine-Regular.38805a5a6a103eb1aa7d.otf",
+    "index.html": "/index.html",
+    "main.4810f444.css.map": "/static/css/main.4810f444.css.map",
+    "main.aa41fe28.js.map": "/static/js/main.aa41fe28.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f54da417.css",
-    "static/js/main.47928978.js"
+    "static/css/main.4810f444.css",
+    "static/js/main.aa41fe28.js"
   ]
 }
