@@ -17,6 +17,8 @@ import ServiceWebpageBuilder from "./pages/services/ServiceWebpageBuilder"
 import ServiceEcommerce from "./pages/services/ServiceEcommerce"
 import ServiceOther from "./pages/services/ServiceOther"
 import Contactus from "./pages/Contactus"
+import Book from "./pages/Book"
+
 function App() {
   return (
     <Routes>
@@ -36,6 +38,7 @@ function App() {
       <Route path="/community/nft" element={<CommunityNFT />} />
       <Route path="/design" element={<Design />} />
       <Route path="/contact-us" element={<Contactus />} />
+      <Route path="/bok" element={<Book />} />
     </Routes>
   );
 }
