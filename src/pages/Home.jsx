@@ -24,7 +24,7 @@ const Home = () => {
                         domination, we provide comprehensive support to help
                          you unlock your business's potential.</p>
                          <button>Contact Us</button>
-                         <a href="/services">Our Services</a>
+                         <a href="/#/services">Our Services</a>
                   </div>
               </div>
               <video id="video" role="presentation" preload="auto" playsInline=""

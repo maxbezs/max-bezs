@@ -59,16 +59,16 @@ const Header = () => {
                 <nav aria-label='primary menu' className={`nav-elements  ${showNavbar && 'active'}`}>
                     <ul>
                         <li>
-                            <a id="" className={activePath === '' ? 'active' : ''} aria-label='home page' href="/">HOME</a>
+                            <a id="" className={activePath === '' ? 'active' : ''} aria-label='home page' href="/#/">HOME</a>
                         </li>
                         <li>
-                            <a id="/blog" className={activePath === '/blog' ? 'active' : ''} aria-label='blog page' href="/blog">BLOG</a>
+                            <a id="/blog" className={activePath === '/blog' ? 'active' : ''} aria-label='blog page' href="/#/blog">BLOG</a>
                         </li>
                         <li>
-                            <a id="/services" className={activePath === '/services' ? 'active' : ''} aria-label='service page' href="/services">SERVICES</a>
+                            <a id="/services" className={activePath === '/services' ? 'active' : ''} aria-label='service page' href="/#/services">SERVICES</a>
                         </li>
                         {/**<li>
-                            <a id="/community" className={activePath === '/community' ? 'active' : ''} aria-label='community page' href="/community">COMMUNITY</a>
+                            <a id="/community" className={activePath === '/community' ? 'active' : ''} aria-label='community page' href="/#/community">COMMUNITY</a>
                         </li>**/}
                     </ul>
                 </nav>
