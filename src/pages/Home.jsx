@@ -14,57 +14,70 @@ const Home = () => {
   return (
       <div>
         <Header/>
-        <div id="videowrapper">
-          <div id="fullScreenDiv">
-              <div id="videoMessage" className="styling"> 
-                  <div className="name">
-                      <h1>We create, build, lunch Custom Digital Products</h1>
-                      <p>Our expert team create Custom Digital Products for your business. 
-                        From idea generation to market 
-                        domination, we provide comprehensive support to help
-                         you unlock your business's potential.</p>
-                         <button>Contact Us</button>
-                         <a href="/#/services">Our Services</a>
-                  </div>
-              </div>
-              <video id="video" role="presentation" preload="auto" playsInline=""
-              crossOrigin="anonymous" loop="" muted="" autoPlay="" className="blur">
-                  <source src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/video.mp4" type="video/mp4"/>
-              </video> 
-          </div>
-          <div className="visualpart">
-              <p>DESIGNER | DEVELOPER</p>
-          </div>
-          <div className="visualpart">
-              <h2>DESIGN</h2>
-              <p>
-                  I'M USING PHOTOSHOP, ILLUSTRATOR, AFTER EFFECTS, FIGMA TO CREATE
-                  2D IMAGES OR VIDEOS. FOR 3D I'M USING BLENDER, HAVE EXPERIENCE 
-                  IN ZBRUSH AND 3DSMAX.
-              </p>
-          </div>
-      </div>
-      <div className="skills">
-          <h2>DESIGN</h2>
-          <p>
-              I'M USING PHOTOSHOP, ILLUSTRATOR, AFTER EFFECTS, FIGMA TO CREATE
-              2D IMAGES OR VIDEOS. FOR 3D I'M USING BLENDER, HAVE EXPERIENCE
-              IN ZBRUSH AND 3DSMAX.
-          </p>
-          <h2>CODE</h2>
-          <p> 
-              I'M USING HTML, CSS, JS, REACT.JS, NODE.JS, JAVA, PYTHON, GITHUB
-              TO CREATE WEB AND ANDROID APPLICATIONS
-          </p>
-      </div>
-      <div className="prof">
-          <div className="codepart">
-              <h2>CODE</h2>
-              <p>
-                  I'M USING HTML, CSS, JS, REACT.JS, NODE.JS, JAVA, PYTHON, GITHUB
-                  TO CREATE WEB AND ANDROID APPLICATIONS
-              </p>
-          </div>
+        <div className="layout1">
+            <video autoPlay muted loop >
+                <source src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/video%20(6).mp4" type="video/mp4"/>
+                Your browser does not support HTML5 video.
+            </video>
+            <div className="content">
+                <h1>We create, build, lunch <br/> Custom Digital Products</h1>
+                <p>
+                    Our expert team create Custom Digital Products for your business. 
+                    From idea generation to market 
+                    domination, we provide comprehensive support to help
+                    you unlock your business's potential.
+                </p>
+                <div>
+                    <button>Contact Us</button>
+                    <a href="/#/services">Our Services</a>
+                </div>
+            </div>
+        </div>
+        <div className="deal-section">
+            <h2>Best B2B deal ever!</h2>
+            <div className="deals">
+                <div className="unit">
+                    <div className="tabphoto">
+                        <img src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/Purple%20Icons%20Set%202%20-%20Copy%401-886x807.png"></img>
+                    </div>
+                    <div className="unit-div">
+                        <h3>Affordable pricing</h3>
+                        <p>
+                            We believe that every
+                            business deserves access to high-quality digital solutions,
+                            regardless of their size.
+                        </p>
+                    </div>
+                </div>
+                <div className="unit">
+                    <div className="tabphoto">
+                        <img src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/Purple%20Icons%20Set%202%20-%20Copy%401-886x807%20(1).png"></img>
+                    </div>
+                    <div className="unit-div">
+                        <h3>Best technology</h3>
+                        <p>
+                            We stay current with the most up-to-date industry standards. 
+                            We're using the best tools to create custom digital
+                            products.
+                        </p>
+                    </div>
+                </div>
+                <div className="unit">
+                    <div className="tabphoto">
+                        <img src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/Purple%20Icons%20Set%209%20-%20Copy%401-1081x758.png"></img>
+                    </div>
+                    <div className="unit-div">
+                        <h3>Efficient workflows</h3>
+                        <p>
+                            We optimize productivity, and deliver 
+                            high-quality results faster
+                            using project management tools to do work efficiently.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      {/**<div className="prof">
           <div className="professional">
               <div className="professional-text" >
                   <h2>PROFESSIONAL</h2>
@@ -76,6 +89,20 @@ const Home = () => {
                 ))}
               </div>
           </div>
+      </div>**/}
+      <div className="goal-section">
+        <div>
+            <h2>Our Goal</h2>
+            <h3>"Tech should be user-friendly, adaptable, and accessible to all."</h3>
+            <p>
+                We are focused on providing services in the world of technology 
+                at a reasonable price, good quality and fast work. This magical 
+                combination has been achieved through meticulous preparation, 
+                peer review, scientific papers, and years of practice in different
+                environments and projects.
+            </p>
+        </div>
+        <img></img>
       </div>
       <div className="PORTFOLIO">
           <h2>PORTFOLIO</h2>
