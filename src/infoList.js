@@ -164,6 +164,35 @@ export const serviceList=[
     },
 ]
 
+export const serviceBestList=[
+    {
+        title: "Webpage",
+        options: [
+            "1 web page",
+            "HTML, CSS, JS",
+            "Frontend only"
+        ],
+        href: "webpage",
+    },
+    {
+        title: "Web-app",
+        options: [
+            "React.js web app",
+            "1 web page",
+            "Frontend only",
+        ],
+        href: "web-app",
+    },
+    {
+        title: "API",
+        options: [
+            "GraphQl, Flask",
+            "Backend for website",
+        ],
+        href: "api",
+    },
+]
+
 export const serviceListWebpage=[
     {
         title:"SEO",

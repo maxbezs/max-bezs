@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import ContactUs from "../components/ContactUs"
 
 const Header = () => {
   const [showNavbar, setShowNavbar] = useState(false)
@@ -10,18 +11,13 @@ const Header = () => {
   useEffect(() => {
     const handleUrlChange = () => {
       const urlPage = window.location.pathname.replace(/\/$/, '');
+      console.log("URL: "+urlPage);
       setActivePath(urlPage);
       console.log(activePath)
     };
 
     handleUrlChange();
-
-    window.addEventListener('popstate', handleUrlChange);
-
-    return () => {
-      window.removeEventListener('popstate', handleUrlChange);
-    };
-  }, []);
+  }, [activePath]);
 
   const body = document.body;
   let lastScroll = 0;
@@ -72,7 +68,7 @@ const Header = () => {
                         </li>**/}
                     </ul>
                 </nav>
-                <button>Contact Us</button>
+                <ContactUs/>
 
             </div>
         </div>

@@ -8,7 +8,7 @@ const Blogs = () => {
       <div>
         <Header/>
         <div className="blog">
-          <div className="acces">
+          <div className="acces" style={{flexDirection: "column"}}>
             <h1>
                 What are the resources and sites 
                 that help me create my artworks?

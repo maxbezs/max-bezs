@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Option from "../components/Option";
 import {serviceList} from "../infoList";
 import Footer from "../components/Footer"
+import ContactUs from "../components/ContactUs"
 
 const Service = () => {
     return (
@@ -10,7 +11,7 @@ const Service = () => {
         <div className="pricing-header">
           <h1> Unlock <br/> Your Business's Potential  <br></br> with Custom Digital Products</h1>
           <p>Our custom digital product creation services help you unlock the full potential of your business in the digital space with customized and unique digital products. Ready to take your business to the next level? </p>
-          <button>Contact Us</button>
+          <ContactUs/>
         </div>
         <div className="pricing">
           <h2>Choose Your <br/> Custom Digital Products</h2>

@@ -1,6 +1,10 @@
 import Knowledge from "../components/Knowledge";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Option from "../components/Option";
+import {serviceBestList} from "../infoList";
+import ContactUs from "../components/ContactUs"
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const listKnowledge = [
@@ -11,6 +15,11 @@ const Home = () => {
     { name: 'React', size: "60%"},
     { name: 'Illustrator', size: "60%"},
   ];
+  const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate("/services");
+    }
   return (
         <div>
             <Header/>
@@ -28,8 +37,8 @@ const Home = () => {
                         you unlock your business's potential.
                     </p>
                     <div>
-                        <button>Contact Us</button>
-                        <a href="/#/services">Our Services</a>
+                        <ContactUs/>
+                        <a style={{marginInlineStart:"24px"}} href="/#/services">Our Services</a>
                     </div>
                 </div>
             </div>
@@ -106,31 +115,15 @@ const Home = () => {
                 </div>
                 <img style={{width:"50%", objectFit:"cover", overflow:"hidden", boxSizing:"border-box", }} src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/portfolio-background.jpg"></img>
             </div>
-            <div className="pricing">
+            <div className="pricing" style={{height:"50vh", justifyContent: "space-evenly"}}>
                 <h2>Our Best Custom Digital Products</h2>
-                <div class="pricing-options">
-                    <div class="card">
-                        <h3>Webpage</h3>
-                        <li>1 web page</li>
-                        <li>HTML, CSS, JS</li>
-                        <li>Frontend only</li>
-                        <button>Details</button>
-                    </div>
-                    <div class="card">
-                        <h3>Web-app</h3>
-                        <li>React.js web app</li>
-                        <li>1 web page</li>
-                        <li>Frontend only</li>
-                        <button>Details</button>
-                    </div>
-                    <div class="card">
-                        <h3>API</h3>
-                        <li>GraphQl, Flask</li>
-                        <li>Backend for website</li>
-                        <button>Details</button>
-                    </div>
+                <div className="pricing-options" style={{width:"100%"}}>
+                    {serviceBestList.map(list => (
+                    <Option key={list.options} title = {list.title} options = {list.options} href = {list.href}/>
+                    ))}
+                    
                 </div>
-                <button>More</button>
+                <button onClick={handleClick}>All Services</button>
             </div>
             <Footer/>
         </div>

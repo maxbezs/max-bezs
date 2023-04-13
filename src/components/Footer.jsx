@@ -9,13 +9,13 @@ import {SiSketchfab} from "react-icons/si"
 import {SiPatreon} from "react-icons/si"
 import {SiTiktok} from "react-icons/si"
 import {SiLinktree} from "react-icons/si"
-
+import ContactUs from "../components/ContactUs"
 const Footer = () => {
     return (
         <div>
             <div className="question-action">
                 <h2>Ready to go?</h2>
-                <button>Contact Us</button>
+                <ContactUs/>
             </div>
             <footer>
                 <div className="footer-colums">
@@ -73,7 +73,7 @@ const Footer = () => {
                                 <SiLinktree className="contactimg"/>
                             </a>
                         </div>
-                        <button>Contact us</button>  
+                        <ContactUs/>  
                     </div>
                 </div>
                 <div className="footer-row">
