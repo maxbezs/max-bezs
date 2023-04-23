@@ -100,7 +100,7 @@ const Home = () => {
                 </div>
             </div>**/}
             <div className="goal-section">
-                <div style={{width:"50%", paddingInlineStart:"10vw"}}>
+                <div className="goal-section-text">
                     <h2>Our Goal</h2>
                     <br/>
                     <h3>"Tech should be user-friendly, <br/> adaptable, and accessible to all."</h3>
@@ -115,8 +115,8 @@ const Home = () => {
                 </div>
                 <img style={{width:"50%", objectFit:"cover", overflow:"hidden", boxSizing:"border-box", }} src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/portfolio-background.jpg"></img>
             </div>
-            <div className="pricing" style={{height:"50vh", justifyContent: "space-evenly"}}>
-                <h2>Our Best Custom Digital Products</h2>
+            <div className="pricing" style={{justifyContent: "space-evenly", paddingInline:"10vw", paddingBlock: "5vh"}}>
+                <h2>Our Best <br/> Custom Digital Products</h2>
                 <div className="pricing-options" style={{width:"100%"}}>
                     {serviceBestList.map(list => (
                     <Option key={list.options} title = {list.title} options = {list.options} href = {list.href}/>

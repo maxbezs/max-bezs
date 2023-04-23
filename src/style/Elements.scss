@@ -1,12 +1,12 @@
 @font-face {
     font-family: "e-Ukraine";
-    src: url(../fonts/e-Ukraine-Regular.otf) format('otf');
+    src: url("../fonts/e-Ukraine-Regular.otf");
+    font-display: swap;
 }
 
 html, body, h1, h2, h3, h4, h5, p, a, button, ul{
     font-family: 'e-Ukraine';
     font-weight: 100;
-    letter-spacing: -.02rem;
     vertical-align:baseline;
     margin:0;
     padding:0;
@@ -56,10 +56,10 @@ h2{
 }
 
 h3{
-    font-size: clamp(20px,1.95vw,28px);
-    font-weight: 400;
+    font-size: clamp(20px,3vw,28px);
+    font-weight: bold;
     line-height: 114%;
-    margin-block: calc(clamp(20px,1.95vw,28px)/4);
+    margin-block: calc(clamp(20px,2vw,28px)/2);
 }
 
 h4{

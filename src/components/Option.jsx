@@ -8,11 +8,13 @@ const Option = (props) => {
     }
     return (
         <div className="card">
+            <div className="card-content">
                 <h3>{props.title}</h3>
-                    {props.options.map((item, index) => {
-                        return <li key={index}>{item}</li>;
-                    })}
-            <button onClick={handleClick}>Details</button>
+                {props.options.map((item, index) => {
+                    return <li key={index}>{item}</li>;
+                })}
+                <button onClick={handleClick}>Details</button>
+            </div>
         </div>
     );
 };
