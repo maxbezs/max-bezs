@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import ContactUs from "../components/ContactUs"
 import { useLocation } from 'react-router-dom'
+import {IoMdMenu} from "react-icons/io"
 
 const Header = () => {
   const [showNavbar, setShowNavbar] = useState(false)
@@ -12,12 +13,9 @@ const Header = () => {
   const [activePath, setActivePath] = useState('');
 
   useEffect(() => {
-    
 
     const handleUrlChange = () => {
-        console.log("URL: " + location.pathname);
         setActivePath(location.pathname);
-        console.log(activePath)
     };
 
     handleUrlChange();
@@ -51,10 +49,12 @@ const Header = () => {
         <div className="navbar-nav">
             <div className="container-nav">
                 <div className="logo-nav">
-                    <img alt="max_bezs logo" src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/icon192transparent.png"/>
+                    <a href="/#/" style={{height:"100%"}}>
+                        <img alt="max_bezs logo" src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/icon192transparent.png"/>
+                    </a>
                 </div>
                 <div className="menu-icon-nav" onClick={handleShowNavbar}>
-                    <img alt="menu icon" src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/icons/menu.svg" className="header-menu-icon"/>
+                    <IoMdMenu size={"2rem"}/>
                 </div>
                 <nav aria-label='primary menu' className={`nav-elements  ${showNavbar && 'active'}`}>
                     <ul>

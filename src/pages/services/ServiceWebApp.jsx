@@ -11,7 +11,7 @@ const ServiceWebApp = () => {
           <h1>Unlocking  <br/>Complete Potential of <br/>Your Business through <br/> Web App</h1>
           <p>Our team offers a fast and easy web application solution to turn your small business concept into reality with just one page.</p>
         </div>
-        <div className="pricing">
+        <div className="pricing-home">
           <h2>Looking for a fast and high-quality <br/>solution for your business?</h2>
           <p> Our product includes:</p>
           <div className="pricing-service">
@@ -20,7 +20,7 @@ const ServiceWebApp = () => {
             ))}
           </div>
         </div>
-        <div className="pricing">
+        <div className="pricing-home">
           <h2>What we need?</h2>
           <p>In order to do our work faster and better:</p>
           <div className="pricing-service">

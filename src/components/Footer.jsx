@@ -25,7 +25,7 @@ const Footer = () => {
                             <a aria-label='home page' href="/#/">Home</a>
                             <a aria-label='blog page' href="/#/blog">Blog</a>
                             <a aria-label='service page' href="/#/services">Services</a>
-                            <a aria-label='community page' href="/#/community">Community</a>
+                            {/*<a aria-label='community page' href="/#/community">Community</a>*/}
                         </div>
                     </div>
                     <div className="footer-column">

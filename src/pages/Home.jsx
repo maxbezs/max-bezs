@@ -45,7 +45,7 @@ const Home = () => {
             <div className="deal-section">
                 <h2>Best B2B deal ever!</h2>
                 <div className="deals">
-                    <div className="unit">
+                    <div className="unit" style={{flexDirection:"row"}}>
                         <div className="tabphoto">
                             <img src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/Purple%20Icons%20Set%202%20-%20Copy%401-886x807.png"></img>
                         </div>
@@ -58,7 +58,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="unit">
+                    <div className="unit" style={{flexDirection:"row"}}>
                         <div className="tabphoto">
                             <img src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/Purple%20Icons%20Set%202%20-%20Copy%401-886x807%20(1).png"></img>
                         </div>
@@ -71,7 +71,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="unit">
+                    <div className="unit" style={{flexDirection:"row"}}>
                         <div className="tabphoto">
                             <img src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/Purple%20Icons%20Set%209%20-%20Copy%401-1081x758.png"></img>
                         </div>
@@ -115,9 +115,9 @@ const Home = () => {
                 </div>
                 <img style={{width:"50%", objectFit:"cover", overflow:"hidden", boxSizing:"border-box", }} src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/portfolio-background.jpg"></img>
             </div>
-            <div className="pricing" style={{justifyContent: "space-evenly", paddingInline:"10vw", paddingBlock: "5vh"}}>
+            <div className="pricing-home">
                 <h2>Our Best <br/> Custom Digital Products</h2>
-                <div className="pricing-options" style={{width:"100%"}}>
+                <div className="pricing-options" >
                     {serviceBestList.map(list => (
                     <Option key={list.options} title = {list.title} options = {list.options} href = {list.href}/>
                     ))}

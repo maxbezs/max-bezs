@@ -6,7 +6,7 @@ const ServiceEcommerce = () => {
         <Header/>
         <div className="pricing-header">
           <h1>Comming soon</h1>
-          <p>Our team create the best solution for you!</p>
+          <p>Our team creates the best solution for you!</p>
         </div>
         <Footer/>
       </div>

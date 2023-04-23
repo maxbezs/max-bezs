@@ -9,7 +9,7 @@ const ServiceOther = () => {
           <h1>You have custom and unique request?</h1>
           <p>Our team ready to create Custom Digital Product for you.</p>
         </div>
-        <div className="pricing">
+        <div className="pricing-home">
           <h2>What we need?</h2>
           <p>In order to do our work faster and better:</p>
           <div className="pricing-service">
