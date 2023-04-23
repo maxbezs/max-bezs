@@ -1,19 +1,23 @@
 import { useState, useEffect } from 'react'
 import ContactUs from "../components/ContactUs"
+import { useLocation } from 'react-router-dom'
 
 const Header = () => {
   const [showNavbar, setShowNavbar] = useState(false)
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar)
   }
+  const location = useLocation();
+
   const [activePath, setActivePath] = useState('');
 
   useEffect(() => {
+    
+
     const handleUrlChange = () => {
-      const urlPage = window.location.pathname.replace(/\/$/, '');
-      console.log("URL: "+urlPage);
-      setActivePath(urlPage);
-      console.log(activePath)
+        console.log("URL: " + location.pathname);
+        setActivePath(location.pathname);
+        console.log(activePath)
     };
 
     handleUrlChange();
@@ -55,7 +59,7 @@ const Header = () => {
                 <nav aria-label='primary menu' className={`nav-elements  ${showNavbar && 'active'}`}>
                     <ul>
                         <li>
-                            <a id="" className={activePath === '' ? 'active' : ''} aria-label='home page' href="/#/">HOME</a>
+                            <a id="/" className={activePath === '/' ? 'active' : ''} aria-label='home page' href="/#/">HOME</a>
                         </li>
                         <li>
                             <a id="/blog" className={activePath === '/blog' ? 'active' : ''} aria-label='blog page' href="/#/blog">BLOG</a>
