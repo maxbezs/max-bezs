@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e755f320.css",
+    "main.css": "/static/css/main.8c5b2515.css",
     "main.js": "/static/js/main.2e3c29fe.js",
     "static/js/988.d61011c1.chunk.js": "/static/js/988.d61011c1.chunk.js",
     "static/media/e-Ukraine-Regular.otf": "/static/media/e-Ukraine-Regular.38805a5a6a103eb1aa7d.otf",
     "index.html": "/index.html",
-    "main.e755f320.css.map": "/static/css/main.e755f320.css.map",
+    "main.8c5b2515.css.map": "/static/css/main.8c5b2515.css.map",
     "main.2e3c29fe.js.map": "/static/js/main.2e3c29fe.js.map",
     "988.d61011c1.chunk.js.map": "/static/js/988.d61011c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e755f320.css",
+    "static/css/main.8c5b2515.css",
     "static/js/main.2e3c29fe.js"
   ]
 }
