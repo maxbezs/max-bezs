@@ -28,7 +28,7 @@ const Footer = () => {
                             {/*<a aria-label='community page' href="/#/community">Community</a>*/}
                         </div>
                     </div>
-                    <div className="footer-column">
+                    <div className="footer-column ph">
                         <h3>Our Services</h3>
                         <div className="footer-column-links">
                             <a href="/#/services/webpage">Webpage</a>
@@ -71,9 +71,9 @@ const Footer = () => {
                             <a href="https://www.patreon.com/max_bezs">
                                 <SiPatreon className="contactimg"/>
                             </a>
-                            <a href="https://tiktok.com/@max_bezs">
+                            {/*<a href="https://tiktok.com/@max_bezs">
                                 <SiTiktok className="contactimg"/>
-                            </a>
+    </a>*/}
                             <a href="https://linktr.ee/max_bezs">
                                 <SiLinktree className="contactimg"/>
                             </a>

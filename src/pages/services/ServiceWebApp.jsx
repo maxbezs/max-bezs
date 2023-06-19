@@ -8,8 +8,11 @@ const ServiceWebApp = () => {
       <div>
         <Header/>
         <div className="pricing-header">
+          <div>
           <h1>Unlocking  <br/>Complete Potential of <br/>Your Business through <br/> Web App</h1>
           <p>Our team offers a fast and easy web application solution to turn your small business concept into reality with just one page.</p>
+          </div>
+          
         </div>
         <div className="pricing-home">
           <h2>Looking for a fast and high-quality <br/>solution for your business?</h2>

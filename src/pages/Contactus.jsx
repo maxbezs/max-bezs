@@ -82,7 +82,7 @@ const Contactus = () => {
                     <ScheduleMeeting
                         borderRadius={8}
                         backgroundColor="#151515"
-                        primaryColor="#343434"
+                        primaryColor="#232323"
                         eventDurationInMinutes={10}
                         availableTimeslots={availableTimeslots}
                         onStartTimeSelect={(e) => {setTime(e.startTime)}}

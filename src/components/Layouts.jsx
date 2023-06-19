@@ -3,7 +3,7 @@ const Layouts = () => {
       <div>
         <h2>Layouts</h2>
         <p>From parents elements to children elements, rounded shapes of components, ratios and NO borders exept when do examples</p>
-        <p>We use plain black background as default.</p>
+        <p>We use dark background as default.</p>
         <h3>
           Shapes
         </h3>

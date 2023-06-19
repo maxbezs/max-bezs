@@ -8,8 +8,11 @@ const ServiceApi = () => {
       <div>
         <Header/>
         <div className="pricing-header">
-          <h1>Maximizing Your <br/> Business's Potential <br/> with API</h1>
+          <div>
+            <h1>Maximizing Your <br/> Business's Potential <br/> with API</h1>
           <p>Our team provides a scalable fast API that can bring your small business to another level.</p>
+          </div>
+          
         </div>
         <div className="pricing-home">
           <h2>Looking for a fast and high-quality <br/>solution for your business?</h2>

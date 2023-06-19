@@ -203,7 +203,7 @@ td{
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-    margin-inline-start: 10vw;
+    margin-inline: 10%;
   }
 
   video {  
@@ -414,7 +414,7 @@ a,span{
 
 .line{
     display:flex;
-    background-color:#212121;
+    background-color:#000;
     min-height: 80vh;
     width: 100%;
 }
@@ -486,7 +486,7 @@ ul{
 }
 
 .color-palette-first{
-    background: #212121;
+    background: #000000;
 }
 
 .color-palette-second{
@@ -537,7 +537,7 @@ ul{
     border-radius:8px;
     height: 80%;
     width: 20%;
-    background-color: #212121;
+    background-color: #000;
     display: flex;
     align-items:center;
     justify-content:center;
@@ -559,7 +559,7 @@ ul{
     height: 80%;
 }
 .shape-section-2{
-    background-color: #212121;
+    background-color: #000;
     width: 20%;
 }
 .shape-section-3{
@@ -625,7 +625,6 @@ ul{
   .navbar-nav {
     width: 100%;
     height: 69px;
-    background-color: #000;
     position: relative;
   }
   
@@ -687,10 +686,10 @@ ul{
     .nav-elements {
       position: absolute;
       right: 0;
-      top: 60px;
-      background-color: #050505;
+      top: 69px;
+      background-color: #111;
       width: 0px;
-      height: 101vh;
+      height: 102vh;
       transition: all 0.3s ease-in;
       overflow: hidden;
     }
@@ -786,9 +785,9 @@ ul{
 }
 
 .card {
-    width: 15%;
+    width: 20%;
     height: auto;
-    background-color: #212121;
+    background-color: #111;
     border-radius: 8px;
 }
 
@@ -805,7 +804,7 @@ ul{
 .card-option {
     width: 30%;
     height: auto;
-    background-color: #212121;
+    background-color: #111;
     border-radius: 8px;
     
 }
@@ -828,10 +827,11 @@ ul{
 }
 
 .pricing-header{
-    padding-block: 10rem;
-    width: 50%;
-    padding-inline: 10rem;
+    padding-block-start: 10rem;
+    width: 80%;
+    padding-inline: 10%;
     height: auto;
+    display: flex;
 }
 
 .pricing{
@@ -853,7 +853,8 @@ ul{
 }
 
 .pricing-options{
-    width: 100%;
+    width: 80%;
+    padding-inline: 10%;
     display: flex;
     margin-block:calc(calc(clamp(24px, 2.62vw, 38px) / 5) + clamp(14px, 1.2vw, 16px));
     gap: 25px;
@@ -879,7 +880,7 @@ ul{
     align-items: center;
     padding-inline: 10vw;
     height: 69px;
-    background-color: #212121;
+    background-color: #232323;
     justify-content: space-between;
 }
 
@@ -1343,7 +1344,7 @@ ul{
         padding: 12px 12px;
         width: 10%;
         color: #fff;
-        background: #212121;
+        background: #232323;
         transition: background .3s ease, border .3s ease, color .3s ease;
     }
     &:focus-within {
@@ -1369,7 +1370,7 @@ ul{
     padding: 1rem;
     text-align: start;
     &:hover{
-        background-color: #212121;
+        background-color: #000;
     }
 }
 
@@ -1444,6 +1445,13 @@ input[type="checkbox"] {
     padding-inline-start: 10vw;
   }
 
+  .goal-section-img{
+    width: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
   .pricing-home{
     display: flex;
     flex-direction: column;
@@ -1453,9 +1461,20 @@ input[type="checkbox"] {
     padding-block: 5vh;
   }
 
+  .ph{
+    display: block;
+  }
+
   @media (max-width: 600px) {
+    .ph{
+        display:none
+    }
     .deals{
         flex-direction: column;
+    }
+    .goal-section{
+        padding: 10%;
+        width: 80%;
     }
     .goal-section-text{
         width: 100%;

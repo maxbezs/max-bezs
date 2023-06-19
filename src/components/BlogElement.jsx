@@ -7,7 +7,7 @@ const BlogElement = (props) => {
             <div className="unit-div">
                 <h3>{props.title}</h3>
                 <p>{props.text} 
-                    <p>{props.title + " website: "}</p>
+                    {props.title + " website: "}
                     <a rel="nofollow" href={props.link}>
                         {props.link}
                     </a>

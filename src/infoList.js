@@ -133,7 +133,7 @@ export const serviceList=[
         options: [
             "1 web page",
             "non-coding ",
-            "Bubble, Wix, WordPress"
+            "Bubble, Webflow"
         ],
         href: "webpage-builder",
     },

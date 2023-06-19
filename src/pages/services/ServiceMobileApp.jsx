@@ -8,8 +8,11 @@ const ServiceMobileApp = () => {
       <div>
         <Header/>
         <div className="pricing-header">
+          <div>
           <h1>Maximizing Your <br/> Business's Potential <br/> with Mobile App</h1>
           <p>Our team provides a quick and convenient mobile app that can bring your small business idea to life in just a seconds.</p>
+          </div>
+          
         </div>
         <div className="pricing-home">
           <h2>Looking for a fast and high-quality <br/>solution for your business?</h2>

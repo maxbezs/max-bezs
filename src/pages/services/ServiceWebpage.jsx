@@ -8,8 +8,11 @@ const ServiceWebpage = () => {
       <div>
         <Header/>
         <div className="pricing-header">
+          <div>
           <h1>Unleashing <br/>Full Potential of <br/>Your Business with <br/> Webpages</h1>
           <p>Our team provides a quick and simple solution to bring your small business idea to life with a single webpage. </p>
+          </div>
+          
         </div>
         <div className="pricing-home">
           <h2>Looking for a fast and high-quality <br/>solution for your business?</h2>

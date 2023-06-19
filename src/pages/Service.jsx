@@ -9,9 +9,15 @@ const Service = () => {
       <div>
         <Header/>
         <div className="pricing-header">
-          <h1> Unlock <br/> Your Business's Potential  <br></br> with Custom Digital Products</h1>
-          <p>Our custom digital product creation services help you unlock the full potential of your business in the digital space with customized and unique digital products. Ready to take your business to the next level? </p>
+          <div>
+            <h1> Unlock <br/> Your Business's Potential with Custom Digital Products</h1>
+          <p>
+
+          Unlock your business's potential with custom products. Max Your profit with our unique and tailored digital solutions.
+          </p>
           <ContactUs/>
+          </div>
+          <img className="ph" style={{width:"20%"}} src="https://raw.githubusercontent.com/maxbezs/max_bezs-website-images/main/Lock%20.png"/>
         </div>
         <div className="pricing-home">
           <h2>Choose Your <br/> Custom Digital Products</h2>
