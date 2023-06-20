@@ -1,47 +1,67 @@
+import { lazy, Suspense } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import ScrollToTop from "./ScrollToTop";
 import './style/App.scss';
 import './style/Elements.scss';
-import { Route, Routes } from "react-router-dom"
-import Home from "./pages/Home";
-import Blogs from "./pages/Blogs";
-import Blog from "./pages/Blog";
-import Service from "./pages/Service";
-import Community from "./pages/Community";
-import CommunityPatreon from "./pages/CommunityPatreon";
-import CommunityNFT from "./pages/CommunityNFT";
-import Design from "./pages/Design";
-import ServiceApi from "./pages/services/ServiceApi"
-import ServiceWebpage from "./pages/services/ServiceWebpage"
-import ServiceWebApp from "./pages/services/ServiceWebApp"
-import ServiceMobileApp from "./pages/services/ServiceMobileApp"
-import ServiceWebpageBuilder from "./pages/services/ServiceWebpageBuilder"
-import ServiceEcommerce from "./pages/services/ServiceEcommerce"
-import ServiceOther from "./pages/services/ServiceOther"
-import Contactus from "./pages/Contactus"
-import Book from "./pages/Book"
-import ScrollToTop from "./ScrollToTop";
+// Import your existing components
+const Home = lazy(() => import('./pages/Home'));
+const Blogs = lazy(() => import('./pages/Blogs'));
+const Blog = lazy(() => import('./pages/Blog'));
+const Service = lazy(() => import('./pages/Service'));
+const ServiceApi = lazy(() => import('./pages/services/ServiceApi'));
+const ServiceWebpage = lazy(() => import('./pages/services/ServiceWebpage'));
+const ServiceWebApp = lazy(() => import('./pages/services/ServiceWebApp'));
+const ServiceMobileApp = lazy(() => import('./pages/services/ServiceMobileApp'));
+const ServiceWebpageBuilder = lazy(() => import('./pages/services/ServiceWebpageBuilder'));
+const ServiceEcommerce = lazy(() => import('./pages/services/ServiceEcommerce'));
+const ServiceOther = lazy(() => import('./pages/services/ServiceOther'));
+const Community = lazy(() => import('./pages/Community'));
+const CommunityPatreon = lazy(() => import('./pages/CommunityPatreon'));
+const CommunityNFT = lazy(() => import('./pages/CommunityNFT'));
+const Design = lazy(() => import('./pages/Design'));
+const ContactUs = lazy(() => import('./pages/Contactus'));
+const ShopHome = lazy(() => import('./shop/pages/ShopHome'));
+const LearningAndDevelopment = lazy(() => import('./shop/pages/LearningAndDevelopment'));
+const MindfulnessAndMeditation = lazy(() => import('./shop/pages/MindfulnessAndMeditation'));
+const MotivationalApparelAndAccessories = lazy(() => import('./shop/pages/MotivationalApparelAndAccessories'));
+const PersonalGrowthAndProductivity = lazy(() => import('./shop/pages/PersonalGrowthAndProductivity'));
+const WellnessAndHealth = lazy(() => import('./shop/pages/WellnessAndHealth'));
+const Book = lazy(() => import('./pages/Book'));
+
+// Add more lazy-loaded components here for future pages
 
 function App() {
   return (
     <ScrollToTop>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/blog" element={<Blogs />} />
-        <Route path="/blog/:blogid" element={<Blog />} />
-        <Route path="/services" element={<Service />} />
-        <Route path="/services/api" element={<ServiceApi />} />
-        <Route path="/services/webpage" element={<ServiceWebpage />} />
-        <Route path="/services/web-app" element={<ServiceWebApp />} />
-        <Route path="/services/mobile-app" element={<ServiceMobileApp />} />
-        <Route path="/services/webpage-builder" element={<ServiceWebpageBuilder />} />
-        <Route path="/services/e-commerce" element={<ServiceEcommerce />} />
-        <Route path="/services/other" element={<ServiceOther />} />
-        <Route path="/community" element={<Community />} />
-        <Route path="/community/patreon" element={<CommunityPatreon />} />
-        <Route path="/community/nft" element={<CommunityNFT />} />
-        <Route path="/design" element={<Design />} />
-        <Route path="/contact-us" element={<Contactus />} />
-        <Route path="/book" element={<Book />} />
-      </Routes>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blogs />} />
+          <Route path="/blog/:blogid" element={<Blog />} />
+          <Route path="/services" element={<Service />} />
+          <Route path="/services/api" element={<ServiceApi />} />
+          <Route path="/services/webpage" element={<ServiceWebpage />} />
+          <Route path="/services/web-app" element={<ServiceWebApp />} />
+          <Route path="/services/mobile-app" element={<ServiceMobileApp />} />
+          <Route path="/services/webpage-builder" element={<ServiceWebpageBuilder />} />
+          <Route path="/services/e-commerce" element={<ServiceEcommerce />} />
+          <Route path="/services/other" element={<ServiceOther />} />
+          <Route path="/community" element={<Community />} />
+          <Route path="/community/patreon" element={<CommunityPatreon />} />
+          <Route path="/community/nft" element={<CommunityNFT />} />
+          <Route path="/design" element={<Design />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/shop" element={<ShopHome />} />
+          <Route path="/shop/learning-and-development" element={<LearningAndDevelopment />} />
+          <Route path="/shop/mindfulness-and-meditation" element={<MindfulnessAndMeditation />} />
+          <Route path="/shop/motivational-apparel-and-accessories" element={<MotivationalApparelAndAccessories />} />
+          <Route path="/shop/personal-growth-and-productivity" element={<PersonalGrowthAndProductivity />} />
+          <Route path="/shop/wellness-and-health" element={<WellnessAndHealth />} />
+          <Route path="/book" element={<Book />} />
+
+          {/* Add routes for future pages here */}
+        </Routes>
+      </Suspense>
     </ScrollToTop>
   );
 }

@@ -25,7 +25,7 @@ const Blog = () => {
                     <hr/>
                     <ul className="regular">
                         <li>
-                            <a href="/#/patterns/buttons" title="Buttons">
+                            <a href="/patterns/buttons" title="Buttons">
                                 <span className="nav-label">Buttons</span>
                             </a>
                         </li>

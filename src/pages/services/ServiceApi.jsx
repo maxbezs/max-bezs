@@ -1,7 +1,5 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-
-import {serviceListApp, serviceListAppNeed} from "../../infoList";
 import Include from "../../components/Include"
 const ServiceApi = () => {
     return (

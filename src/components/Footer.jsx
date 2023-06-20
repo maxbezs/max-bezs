@@ -22,22 +22,22 @@ const Footer = () => {
                     <div className="footer-column">
                         <h3>Browse</h3>
                         <div className="footer-column-links">
-                            <a aria-label='home page' href="/#/">Home</a>
-                            <a aria-label='blog page' href="/#/blog">Blog</a>
-                            <a aria-label='service page' href="/#/services">Services</a>
-                            {/*<a aria-label='community page' href="/#/community">Community</a>*/}
+                            <a aria-label='home page' href="/">Home</a>
+                            <a aria-label='blog page' href="/blog">Blog</a>
+                            <a aria-label='service page' href="/services">Services</a>
+                            {/*<a aria-label='community page' href="/community">Community</a>*/}
                         </div>
                     </div>
                     <div className="footer-column ph">
                         <h3>Our Services</h3>
                         <div className="footer-column-links">
-                            <a href="/#/services/webpage">Webpage</a>
-                            <a href="/#/services/web-app">Web-app</a>
-                            <a href="/#/services/mobile-app">Mobile app</a>
-                            <a href="/#/services/webpage-builder">Webpage Builder</a>
-                            <a href="/#/services/api">API</a>
-                            <a href="/#/services/e-commerce">E-commerce</a>
-                            <a href="/#/services/other">Other</a>
+                            <a href="/services/webpage">Webpage</a>
+                            <a href="/services/web-app">Web-app</a>
+                            <a href="/services/mobile-app">Mobile app</a>
+                            <a href="/services/webpage-builder">Webpage Builder</a>
+                            <a href="/services/api">API</a>
+                            <a href="/services/e-commerce">E-commerce</a>
+                            <a href="/services/other">Other</a>
                         </div>
                         
                     </div>

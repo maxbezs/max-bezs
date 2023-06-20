@@ -35,7 +35,7 @@ const Home = () => {
                     </p>
                     <div>
                         <ContactUs/>
-                        <a style={{marginInlineStart:"24px"}} href="/#/services">Our Services</a>
+                        <a style={{marginInlineStart:"24px"}} href="/services">Our Services</a>
                     </div>
                 </div>
             </div>
