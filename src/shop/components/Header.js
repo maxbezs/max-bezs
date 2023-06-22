@@ -49,7 +49,7 @@ const Header = () => {
                 <nav aria-label='primary menu' className="nav-elements">
                     <ul>
                         <li>
-                            <a id="/shop" className={activePath === '/shop' ? 'active' : ''} aria-label='shop page' href="/shop">Shop</a>
+                            <a id="/shop" className={activePath === '/shop' ? 'active' : ''} aria-label='shop page' href="/shop">Home</a>
                         </li>
                         <li>
                             <a id="/shop/learning-and-development" className={activePath === '/shop/learning-and-development' ? 'active' : ''} aria-label='Learning and Development page' href="/shop/learning-and-development">

@@ -20,12 +20,12 @@ const CommunityPatreon = lazy(() => import('./pages/CommunityPatreon'));
 const CommunityNFT = lazy(() => import('./pages/CommunityNFT'));
 const Design = lazy(() => import('./pages/Design'));
 const ContactUs = lazy(() => import('./pages/Contactus'));
-const ShopHome = lazy(() => import('./shop/pages/ShopHome'));
-const LearningAndDevelopment = lazy(() => import('./shop/pages/LearningAndDevelopment'));
-const MindfulnessAndMeditation = lazy(() => import('./shop/pages/MindfulnessAndMeditation'));
-const MotivationalApparelAndAccessories = lazy(() => import('./shop/pages/MotivationalApparelAndAccessories'));
-const PersonalGrowthAndProductivity = lazy(() => import('./shop/pages/PersonalGrowthAndProductivity'));
-const WellnessAndHealth = lazy(() => import('./shop/pages/WellnessAndHealth'));
+const Shop = lazy(() => import('./shop/Shop'));
+const LearningAndDevelopment = lazy(() => import('./shop/pages/Learning&Development/LearningAndDevelopment'));
+const MindfulnessAndMeditation = lazy(() => import('./shop/pages/Mindfulness&Meditation/MindfulnessAndMeditation'));
+const MotivationalApparelAndAccessories = lazy(() => import('./shop/pages/MotivationalApparel&Accessories/MotivationalApparelAndAccessories'));
+const PersonalGrowthAndProductivity = lazy(() => import('./shop/pages/PersonalGrowth&Productivity/PersonalGrowthAndProductivity'));
+const WellnessAndHealth = lazy(() => import('./shop/pages/Wellness&Health/WellnessAndHealth'));
 const Book = lazy(() => import('./pages/Book'));
 
 // Add more lazy-loaded components here for future pages
@@ -51,7 +51,7 @@ function App() {
           <Route path="/community/nft" element={<CommunityNFT />} />
           <Route path="/design" element={<Design />} />
           <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/shop" element={<ShopHome />} />
+          <Route path="/shop" element={<Shop />} />
           <Route path="/shop/learning-and-development" element={<LearningAndDevelopment />} />
           <Route path="/shop/mindfulness-and-meditation" element={<MindfulnessAndMeditation />} />
           <Route path="/shop/motivational-apparel-and-accessories" element={<MotivationalApparelAndAccessories />} />
