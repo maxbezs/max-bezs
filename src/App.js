@@ -21,12 +21,14 @@ const CommunityNFT = lazy(() => import('./pages/CommunityNFT'));
 const Design = lazy(() => import('./pages/Design'));
 const ContactUs = lazy(() => import('./pages/Contactus'));
 const Shop = lazy(() => import('./shop/Shop'));
+const Subcategory = lazy(() => import('./shop/pages/Subcategory'));
 const LearningAndDevelopment = lazy(() => import('./shop/pages/Learning&Development/LearningAndDevelopment'));
 const MindfulnessAndMeditation = lazy(() => import('./shop/pages/Mindfulness&Meditation/MindfulnessAndMeditation'));
 const MotivationalApparelAndAccessories = lazy(() => import('./shop/pages/MotivationalApparel&Accessories/MotivationalApparelAndAccessories'));
 const PersonalGrowthAndProductivity = lazy(() => import('./shop/pages/PersonalGrowth&Productivity/PersonalGrowthAndProductivity'));
 const WellnessAndHealth = lazy(() => import('./shop/pages/Wellness&Health/WellnessAndHealth'));
 const Book = lazy(() => import('./pages/Book'));
+const Product = lazy(() => import('./shop/pages/Product'));
 
 // Add more lazy-loaded components here for future pages
 
@@ -52,11 +54,13 @@ function App() {
           <Route path="/design" element={<Design />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/shop" element={<Shop />} />
-          <Route path="/shop/learning-and-development" element={<LearningAndDevelopment />} />
+          <Route path="/shop/learning-and-development" element={<LearningAndDevelopment />} />          
           <Route path="/shop/mindfulness-and-meditation" element={<MindfulnessAndMeditation />} />
           <Route path="/shop/motivational-apparel-and-accessories" element={<MotivationalApparelAndAccessories />} />
           <Route path="/shop/personal-growth-and-productivity" element={<PersonalGrowthAndProductivity />} />
           <Route path="/shop/wellness-and-health" element={<WellnessAndHealth />} />
+          <Route path="/shop/:category/:subcategory" element={<Subcategory />} />
+          <Route path="/shop/:category/:subcategory/:id" element={<Product />} />
           <Route path="/book" element={<Book />} />
 
           {/* Add routes for future pages here */}

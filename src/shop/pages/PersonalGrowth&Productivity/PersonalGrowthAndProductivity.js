@@ -1,4 +1,3 @@
-import '../style/Shop.scss';
 import Header from '../../components/Header';
 
 const PersonalGrowthAndProductivity = () => {
@@ -6,21 +5,9 @@ const PersonalGrowthAndProductivity = () => {
   return (
         <div>
             <Header/>
-            <div>
-                <h2>Productivity and Goal-setting Tools</h2>
-                <p>Productivity and Goal-Setting Tools</p>
-                <div>
-                Tool cards with an image, title, short description,
-                <button>But Now</button>
-                </div>
-            </div>
-            <div>
-                <h2>Personal Development Tools</h2>
-                <p>Tools and Resources for Personal Development</p>
-                <div>
-                Tool cards with an image, title, short description,
-                <button>Access Now</button>
-                </div>
+            <div style={{marginTop:"100px", flexDirection:"column", display:"flex"}}>
+                <a href='/shop/personal-growth-and-productivity/personal-development-tools'> Personal Development Tools</a>
+                <a href='/shop/personal-growth-and-productivity/productivity-and-goal-setting-tools'> Productivity and Goal-Setting Tools</a>
             </div>
         </div>
     );
