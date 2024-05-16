@@ -44,9 +44,9 @@ const Footer = () => {
                     <div className="footer-column" >
                         <h3>Contact</h3>
                         <div className="contactlinks">
-                            <a href="mailto:max.bezsmertnyi@gmail.com">
+                            {/*<a href="mailto:max.bezsmertnyi@gmail.com">
                                 <HiOutlineMail className="contactimg"/>
-                            </a>
+                            </a>*/}
                             <a href="https://youtube.com/@max_bezs">
                                 <AiOutlineYoutube className="contactimg"/>
                             </a>
@@ -56,21 +56,21 @@ const Footer = () => {
                             <a href="https://github.com/maxbezs">
                                 <FiGithub className="contactimg"/>
                             </a>
-                            <a href="https://t.me/max_bezs">
+                            {/*<a href="https://t.me/max_bezs">
                                 <TbBrandTelegram className="contactimg"/>
                             </a>
                             <a href="https://play.google.com/store/apps/details?id=com.eafappb.leafapp">
                                 <RiGooglePlayLine className="contactimg"/>
-                            </a>
+                            </a>*/}
                             <a href="https://opensea.io/max_bezs">
                                 <SiOpensea className="contactimg"/>
                             </a>
                             <a href="https://sketchfab.com/max_bezs">
                                 <SiSketchfab className="contactimg"/>
                             </a>
-                            <a href="https://www.patreon.com/max_bezs">
+                            {/*<a href="https://www.patreon.com/max_bezs">
                                 <SiPatreon className="contactimg"/>
-                            </a>
+                            </a>*/}
                             {/*<a href="https://tiktok.com/@max_bezs">
                                 <SiTiktok className="contactimg"/>
     </a>*/}
